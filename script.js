@@ -1,6 +1,6 @@
 //complete this code
 class Animal {
-	constructor(species: string){
+	constructor(species){
 		this.species = species;
 	}
 	makeSound(){
@@ -9,7 +9,7 @@ class Animal {
 }
 
 class Dog extends Animal {
-	constructor(species: string){
+	constructor(species){
 		super(species);
 	}
 	purr(){
@@ -18,7 +18,7 @@ class Dog extends Animal {
 }
 
 class Cat extends Animal {
-	constructor(species: string){
+	constructor(species){
 		super(species);
 	}
 	bark(){
